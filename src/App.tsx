@@ -53,7 +53,7 @@ export const App: React.FC = () => {
     );
   });
 
-  const resetValue = () => {
+  const resetSort = () => {
     setSortType(SortType.NONE);
     setIsReversed(false);
   };
@@ -90,7 +90,7 @@ export const App: React.FC = () => {
           <button
             type="button"
             className="button is-danger is-light"
-            onClick={resetValue}
+            onClick={resetSort}
           >
             Reset
           </button>
